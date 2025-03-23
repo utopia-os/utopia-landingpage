@@ -15,14 +15,14 @@ export const HeroSection: React.FC = () => {
               positive change in your area and everywhere in the world ✨
             </p>
             <div className="flex flex-wrap gap-3">
-              <button className="flex gap-2 justify-center items-center px-5 py-0 h-16 text-lg font-semibold text-white !bg-[#05966a] hover:!bg-[#048257] focus:!outline-none transition-colors duration-200 ease-in-out !border-0 rounded-[1000px] max-sm:w-full">
+              <a href="#" className="flex gap-2 justify-center items-center px-5 py-0 h-16 text-lg font-semibold text-white !bg-[#05966a] hover:!bg-[#048257] focus:!outline-none transition-colors duration-200 ease-in-out !border-0 rounded-[1000px] max-sm:w-full no-underline">
                 <span>Try out maps</span>
                 <i className="ti ti-arrow-up-right" />
-              </button>
-              <button className="flex gap-2 justify-center items-center px-5 py-0 h-16 text-lg font-semibold text-white !bg-[#C4037D] hover:!bg-[#A50268] focus:!outline-none transition-colors duration-200 ease-in-out !border-0 rounded-[1000px] max-sm:w-full">
+              </a>
+              <a href="#" className="flex gap-2 justify-center items-center px-5 py-0 h-16 text-lg font-semibold text-white !bg-[#C4037D] hover:!bg-[#A50268] focus:!outline-none transition-colors duration-200 ease-in-out !border-0 rounded-[1000px] max-sm:w-full no-underline">
                 <span>Join our team</span>
                 <i className="ti ti-arrow-up-right" />
-              </button>
+              </a>
             </div>
           </div>
           <div className="absolute right-0 bottom-0 w-[45%] max-md:static max-md:w-full">

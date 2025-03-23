@@ -44,14 +44,14 @@ export const FutureSection: React.FC = () => {
             thriving future. Together, we can change the world.
           </p>
           <div className="flex flex-wrap gap-3">
-            <button className="flex gap-2 justify-center items-center px-5 py-0 h-16 text-lg font-semibold text-white !bg-[#05966a] hover:!bg-[#048257] focus:!outline-none transition-colors duration-200 ease-in-out !border-0 rounded-[1000px] max-sm:w-full">
+            <a href="#" className="flex gap-2 justify-center items-center px-5 py-0 h-16 text-lg font-semibold text-white !bg-[#05966a] hover:!bg-[#048257] focus:!outline-none transition-colors duration-200 ease-in-out !border-0 rounded-[1000px] max-sm:w-full no-underline">
               <span>Try out maps</span>
               <i className="ti ti-arrow-up-right" />
-            </button>
-            <button className="flex gap-2 justify-center items-center px-5 py-0 h-16 text-lg font-semibold text-white !bg-[#2563eb] hover:!bg-[#1e40af] focus:!outline-none transition-colors duration-200 ease-in-out !border-0 rounded-[1000px] max-sm:w-full">
+            </a>
+            <a href="#" className="flex gap-2 justify-center items-center px-5 py-0 h-16 text-lg font-semibold text-white !bg-[#2563eb] hover:!bg-[#1e40af] focus:!outline-none transition-colors duration-200 ease-in-out !border-0 rounded-[1000px] max-sm:w-full no-underline">
               <span>Support funding</span>
               <i className="ti ti-arrow-up-right" />
-            </button>
+            </a>
           </div>
         </div>
         <div className="flex flex-col gap-6">

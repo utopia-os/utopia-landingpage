@@ -40,10 +40,13 @@ export const StepsSection: React.FC = () => {
           <StepCard key={index} {...step} />
         ))}
       </div>
-      <button className="flex gap-2 items-center px-5 py-0 mt-8 h-16 text-lg font-semibold text-white bg-blue-700 cursor-pointer border-[none] rounded-[1000px]">
+      <a
+          href="#"
+          className="flex gap-2 items-center justify-center px-5 py-0 mt-8 h-16 text-lg font-semibold text-white bg-blue-700 hover:bg-blue-800 transition-colors duration-200 ease-in-out cursor-pointer border-[none] rounded-[1000px] no-underline"
+      >
         <span>Try out maps</span>
         <i className="ti ti-arrow-up-right" />
-      </button>
+      </a>
     </section>
   );
 };

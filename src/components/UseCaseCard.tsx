@@ -6,6 +6,7 @@ interface UseCaseCardProps {
   title: string;
   subtitle: string;
   description: string;
+  url: string;
 }
 
 export const UseCaseCard: React.FC<UseCaseCardProps> = ({
@@ -13,6 +14,7 @@ export const UseCaseCard: React.FC<UseCaseCardProps> = ({
   title,
   subtitle,
   description,
+  url,
 }) => {
   return (
     <article className="flex flex-col gap-2.5 items-center px-7 py-10 w-96 bg-white shadow-2xl rounded-[60px] max-sm:w-full">
@@ -33,9 +35,13 @@ export const UseCaseCard: React.FC<UseCaseCardProps> = ({
       </header>
       <div className="flex flex-col gap-8 w-full">
         <p className="text-base leading-6 text-gray-800">{description}</p>
-        <button className="px-5 py-2 mx-auto my-0 text-base font-semibold text-white bg-emerald-600 cursor-pointer border-[none] rounded-[30.4px] w-[186px]">
+        <a
+            href={url}
+            target="_blank"
+            className="inline-block px-5 py-2 mx-auto my-0 text-base font-semibold text-white bg-emerald-600 hover:bg-emerald-700 transition-colors duration-200 ease-in-out cursor-pointer border-[none] rounded-[30.4px] w-[186px] text-center"
+        >
           Check out this map
-        </button>
+        </a>
       </div>
     </article>
   );
