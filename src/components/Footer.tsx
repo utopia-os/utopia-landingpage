@@ -5,9 +5,7 @@ import { SocialIcons } from './SocialIcons';
 
 export const Footer: React.FC = () => {
     const infoLinks = [
-        { text: 'About us', href: '#' },
-        { text: 'Concepts', href: '#' },
-        { text: 'FAQs', href: '#' },
+        { text: 'About us & Concepts', href: '#' },
         { text: 'Work with us', href: '#' }
     ];
 
@@ -18,9 +16,8 @@ export const Footer: React.FC = () => {
     ];
 
     const legalLinks = [
-        { text: 'Terms of use', href: '#' },
+        { text: 'Imprint', href: '#' },
         { text: 'Privacy policy', href: '#' },
-        { text: 'Accessibility', href: '#' },
         { text: 'GPL-3.0 Licence', href: '#' }
     ];
 
