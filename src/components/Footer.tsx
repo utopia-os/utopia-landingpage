@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
     ];
 
     return (
-        <footer className="flex flex-col gap-2.5 justify-center items-center px-0 pt-24 pb-8 bg-emerald-600 rounded-none">
+        <footer className="flex flex-col gap-2.5 justify-center items-center px-0 pt-24 pb-8 bg-emerald-600 rounded-[0_0_60px_60px]">
             <div className="flex flex-col gap-8 items-center px-28 py-0 w-full max-w-[1200px] max-md:px-12 max-md:py-0 max-sm:px-6 max-sm:py-0">
                 <section className="flex flex-col items-center w-full text-center">
                     <h1 className="mb-1 text-base font-bold leading-6 text-white">
