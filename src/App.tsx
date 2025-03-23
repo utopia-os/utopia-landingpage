@@ -14,7 +14,7 @@ function App() {
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
             />
-            <main>
+            <main class="p-1 md:p-2 lg:p-4">
                 <HeroSection />
                 <ExplanationSection />
                 <UseCasesSection />
