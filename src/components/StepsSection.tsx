@@ -31,8 +31,8 @@ export const StepsSection: React.FC = () => {
   ];
 
   return (
-    <section className="flex flex-col gap-24 items-center px-20 py-24 bg-sky-100 rounded-[0_0_60px_60px]">
-      <h2 className="text-4xl font-bold leading-10 text-center text-sky-900 max-sm:text-3xl">
+    <section className="flex flex-col gap-24 items-center px-8 py-16 bg-sky-500/15 rounded-b-4xl">
+      <h2 className="text-4xl font-bold leading-10 text-center max-sm:text-3xl">
         How you can connect and take the first steps
       </h2>
       <div className="flex flex-wrap gap-16 justify-center px-5 py-0 max-sm:p-0">

@@ -35,7 +35,7 @@ export const TeamSection: React.FC = () => {
   ];
 
   return (
-    <section className="flex flex-col gap-24 items-center px-20 py-24">
+    <section className="flex flex-col gap-24 items-center px-8 py-16">
       <h2 className="text-xs font-medium tracking-wider text-gray-400 uppercase">
         who's behind utopia
       </h2>

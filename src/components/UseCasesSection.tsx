@@ -6,11 +6,11 @@ export const UseCasesSection: React.FC = () => {
   const useCases = [
     {
       icon: "/src/assets/usecases/our-journey.png",
-      title: "Our Journey",
+      title: "Unsere Reise",
       subtitle: "Personal travel diary",
       description:
         "Sharing places, stories, and photos that matter to them from their journey with others and their community.",
-      url: ""
+      url: "https://unsere-reise.utopia-map.org/"
     },
     {
       icon: "src/assets/usecases/wuerdekompass.png",
@@ -18,7 +18,7 @@ export const UseCasesSection: React.FC = () => {
       subtitle: "Initiative for dignity awareness",
       description:
         "Interacting with priorities and events of groups. Members manage their own profiles, so admin work is reduced.",
-      url: "",
+      url: "https://www.wuerdekompass.org/aktivitaeten/gruppensuche",
     },
     {
       icon: "src/assets/usecases/docutopia.png",
@@ -26,7 +26,7 @@ export const UseCasesSection: React.FC = () => {
       subtitle: "Sustainable community platform",
       description:
         "Helping 50+ people to find their tribe and co-create harmonious society with dynamic real-time updates so that is easy to be a part of it.",
-      url: "",
+      url: "https://next.docutopia.de/",
     },
     {
       icon: "src/assets/usecases/pilgrimage.png",
@@ -34,7 +34,7 @@ export const UseCasesSection: React.FC = () => {
       subtitle: "Interactive pilgrimage platform",
       description:
         "Planning routes, exploring sacred sites, participating in rituals and projects, and documenting journeys with multimedia.",
-      url: "",
+      url: "https://pilgrimage.utopia-map.org/",
     },
     {
       icon: "src/assets/usecases/vision-gesundheit.png",
@@ -42,7 +42,7 @@ export const UseCasesSection: React.FC = () => {
       subtitle: "Holistic healthcare organisation",
       description:
         'Finding "houses of healing" for everyone looking for better healthcare while helping people work together and support each other.',
-      url: "",
+      url: "https://vision-gesundheit.utopia-map.org/",
     },
     {
       icon: "src/assets/usecases/essbare-stadt-kassel.png",
@@ -50,16 +50,16 @@ export const UseCasesSection: React.FC = () => {
       subtitle: "Urban agriculture initiative",
       description:
         "Guiding Kassel citizens to public edible trees and urban community gardens to raise awareness of food and nutrition.",
-      url: "",
+      url: "https://essbare-stadt.de/wp/",
     },
   ];
 
   return (
-    <section className="flex flex-col gap-24 items-center px-20 pt-24 pb-0 bg-sky-100 rounded-[60px_60px_0_0] max-sm:px-4 max-sm:py-12">
-      <h2 className="text-4xl font-bold leading-10 text-center text-sky-900 max-sm:text-3xl">
+    <section className="flex flex-col px-8 py-16 gap-12 items-center bg-sky-500/15 text-base-content rounded-t-4xl">
+      <h2 className="text-4xl font-bold leading-10 text-center max-sm:text-3xl">
         Here's how our maps are used
       </h2>
-      <p className="text-base leading-7 text-center text-sky-700 max-w-[800px]">
+      <p className="text-base leading-7 text-center max-w-[800px]">
         Different goals, different maps. We're all about sparking genuine
         connections and making a positive impact in the world. Here's the magic
         of Utopia:

@@ -31,13 +31,13 @@ export const FutureSection: React.FC = () => {
   ];
 
   return (
-    <section className="flex justify-center px-20 py-32 bg-sky-100 rounded-[60px_60px_0_0] max-sm:px-4 max-sm:py-16">
+    <section className="flex justify-center  px-8 py-16 bg-sky-500/15 rounded-t-4xl">
       <div className="flex gap-16 max-w-[1200px] max-lg:flex-col">
         <div className="flex flex-col gap-8 max-w-[550px] max-md:items-center max-md:text-center">
-          <h2 className="text-5xl font-bold leading-10 text-sky-900">
+          <h2 className="text-3xl md:text-5xl font-bold leading-14">
             Interactive maps are just the beginning
           </h2>
-          <p className="text-xl leading-8 text-sky-900">
+          <p className="text-xl leading-8">
             Utopia isn't just about maps—it's about transforming how we connect,
             co-create, share responsibility and act in the world. Maps'
             versatility helps us find our way through this change towards a

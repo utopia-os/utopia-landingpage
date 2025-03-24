@@ -24,12 +24,12 @@ export const StepCard: React.FC<StepCardProps> = ({
               >
                   <i className={`ti ti-${icon} text-4xl text-white`} />
               </div>
-              <h3 className="text-2xl font-medium leading-8 text-gray-800">
+              <h3 className="text-2xl font-medium leading-8">
                   {title}
               </h3>
           </div>
           <div>
-              <p className="text-base leading-7 text-gray-800 max-md:text-center">{description}</p>
+              <p className="text-base leading-7 max-md:text-center">{description}</p>
           </div>
       </article>
   );

@@ -13,7 +13,7 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
   description,
 }) => {
   return (
-    <article className="flex gap-8 items-center px-12 py-7 bg-white shadow-xl rounded-[80px] max-sm:flex-col max-sm:p-5 max-sm:text-center">
+    <article className="flex gap-8 items-center px-12 py-7 bg-white shadow-xl rounded-4xl max-sm:flex-col max-sm:p-5 max-sm:text-center">
       <div className="flex justify-center items-center bg-emerald-600 rounded-2xl border-2 border-emerald-700 border-solid h-[72px] w-[72px] min-w-[72px]">
         <i className={`ti ti-${icon} text-4xl text-white`} />
       </div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import { HeroSection } from "./components/HeroSection";
 import { ExplanationSection } from "./components/ExplanationSection";
 import { UseCasesSection } from "./components/UseCasesSection";
@@ -14,7 +13,7 @@ function App() {
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
             />
-            <main class="p-1 md:p-2 lg:p-4">
+            <main className="p-2 md:p-2 lg:p-4 bg-base-100">
                 <HeroSection />
                 <ExplanationSection />
                 <UseCasesSection />

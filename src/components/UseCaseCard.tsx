@@ -17,32 +17,22 @@ export const UseCaseCard: React.FC<UseCaseCardProps> = ({
   url,
 }) => {
   return (
-    <article className="flex flex-col gap-2.5 items-center px-7 py-10 w-96 bg-white shadow-2xl rounded-[60px] max-sm:w-full">
-      <header className="flex gap-5 justify-between items-center text-gray-800 w-full">
-        <img
-            src={icon}
-            alt="Initiative Logo"
-            className="object-contain shrink-0 self-stretch my-auto aspect-square w-[72px]"
-        />
-        <div className="flex-1 shrink self-stretch my-auto basis-0 min-w-[164px]">
-          <h1 className="text-2xl font-medium leading-none">
-            {title}
-          </h1>
-          <p className="text-base">
-            {subtitle}
-          </p>
+<div className="card rounded-2xl bg-base-100 w-96 shadow-2xl">
+  <div className="card-body">
+  <div className="flex items-center space-x-2">
+        <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-200">
+            <img className="w-full h-full object-cover" src={icon} alt="Avatar"/>
         </div>
-      </header>
-      <div className="flex flex-col gap-8 w-full">
-        <p className="text-base leading-6 text-gray-800">{description}</p>
-        <a
-            href={url}
-            target="_blank"
-            className="inline-block px-5 py-2 mx-auto my-0 text-base font-semibold text-white bg-emerald-600 hover:bg-emerald-700 transition-colors duration-200 ease-in-out cursor-pointer border-[none] rounded-[30.4px] w-[186px] text-center"
-        >
-          Check out this map
-        </a>
-      </div>
-    </article>
+        <div className="overflow-hidden">
+            <h1 className="text-xl font-semibold truncate">{title}</h1>
+            <p className="text-xs text-gray-500 truncate">{subtitle}</p>
+        </div>
+    </div>
+    <p>{description}</p>
+    <div className="card-actions justify-end">
+      <a href={url} target="_blank"><button className="btn btn-primary">Check out</button></a>
+    </div>
+  </div>
+</div>
   );
 };
