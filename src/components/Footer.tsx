@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { FooterSection } from './FooterSection';
+import { FooterSection } from '../sections/FooterSection';
 import { SocialIcons } from './SocialIcons';
 
 export const Footer: React.FC = () => {

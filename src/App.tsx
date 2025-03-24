@@ -1,10 +1,11 @@
-import { HeroSection } from "./components/HeroSection";
-import { ExplanationSection } from "./components/ExplanationSection";
-import { UseCasesSection } from "./components/UseCasesSection";
-import { StepsSection } from "./components/StepsSection";
-import { TeamSection } from "./components/TeamSection";
-import { FutureSection } from "./components/FutureSection";
+import { HeroSection } from "./sections/HeroSection";
+import { ExplanationSection } from "./sections/ExplanationSection";
+import { UseCasesSection } from "./sections/UseCasesSection";
+import { StepsSection } from "./sections/StepsSection";
+import { TeamSection } from "./sections/TeamSection";
+import { FutureSection } from "./sections/FutureSection";
 import { Footer } from "./components/Footer";
+import { Navbar } from "./components/Navbar";
 
 function App() {
     return (
@@ -13,7 +14,8 @@ function App() {
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
             />
-            <main className="p-2 md:p-2 lg:p-4 bg-base-100">
+            <main className="p-1 md:p-2 bg-base-100">
+                <Navbar/>
                 <HeroSection />
                 <ExplanationSection />
                 <UseCasesSection />

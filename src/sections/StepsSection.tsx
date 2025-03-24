@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { StepCard } from "./StepCard";
+import { StepCard } from "../components/StepCard";
 
 export const StepsSection: React.FC = () => {
   const steps = [

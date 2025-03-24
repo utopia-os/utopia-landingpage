@@ -3,7 +3,7 @@ import React from "react";
 export const SocialIcons: React.FC = () => {
     return (
         <div className="flex gap-4 items-center max-sm:mb-4">
-            <a href="#" aria-label="Telegram">
+            <a href="https://t.me/UtopiaMap" aria-label="Telegram">
                 <svg
                     width="40"
                     height="40"
@@ -18,7 +18,7 @@ export const SocialIcons: React.FC = () => {
                     />
                 </svg>
             </a>
-            <a href="#" aria-label="GitHub">
+            <a href="https://github.com/utopia-os" aria-label="GitHub">
                 <svg
                     width="40"
                     height="40"
@@ -33,7 +33,7 @@ export const SocialIcons: React.FC = () => {
                     />
                 </svg>
             </a>
-            <a href="#" aria-label="X (Twitter)">
+            <a href="https://x.com/UtopiaMapGame" aria-label="X (Twitter)">
                 <svg
                     width="40"
                     height="40"

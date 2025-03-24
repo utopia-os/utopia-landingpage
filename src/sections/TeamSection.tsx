@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { TeamMemberCard } from "./TeamMemberCard";
+import { TeamMemberCard } from "../components/TeamMemberCard";
 
 export const TeamSection: React.FC = () => {
   const teamMembers = [

@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { FeatureCard } from "./FeatureCard";
+import { FeatureCard } from "../components/FeatureCard";
 
 export const FutureSection: React.FC = () => {
   const features = [

@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { UseCaseCard } from "./UseCaseCard";
+import { UseCaseCard } from "../components/UseCaseCard";
 
 export const UseCasesSection: React.FC = () => {
   const useCases = [
@@ -71,10 +71,9 @@ export const UseCasesSection: React.FC = () => {
       </div>
       <a
           href="#"
-          className="flex gap-2 items-center px-5 py-0 mt-8 h-16 text-lg font-semibold text-white bg-violet-600 hover:bg-violet-700 transition-colors duration-200 ease-in-out cursor-pointer border-[none] rounded-[1000px] no-underline justify-center"
       >
-        <span>Get your customised map</span>
-        <i className="ti ti-arrow-up-right" />
+        <span className="btn rounded-full text-white bg-violet-600 hover:bg-violet-700">Get your customised map        <i className="ti ti-arrow-up-right" />
+        </span>
       </a>
     </section>
   );
