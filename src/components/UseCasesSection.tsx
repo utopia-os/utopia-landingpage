@@ -5,7 +5,7 @@ import { UseCaseCard } from "./UseCaseCard";
 export const UseCasesSection: React.FC = () => {
   const useCases = [
     {
-      icon: "/src/assets/usecases/our-journey.png",
+      icon: "//usecases/our-journey.png",
       title: "Unsere Reise",
       subtitle: "Personal travel diary",
       description:
@@ -13,7 +13,7 @@ export const UseCasesSection: React.FC = () => {
       url: "https://unsere-reise.utopia-map.org/"
     },
     {
-      icon: "src/assets/usecases/wuerdekompass.png",
+      icon: "/usecases/wuerdekompass.png",
       title: "Würdekompass eV",
       subtitle: "Initiative for dignity awareness",
       description:
@@ -21,7 +21,7 @@ export const UseCasesSection: React.FC = () => {
       url: "https://www.wuerdekompass.org/aktivitaeten/gruppensuche",
     },
     {
-      icon: "src/assets/usecases/docutopia.png",
+      icon: "/usecases/docutopia.png",
       title: "Docutopia",
       subtitle: "Sustainable community platform",
       description:
@@ -29,7 +29,7 @@ export const UseCasesSection: React.FC = () => {
       url: "https://next.docutopia.de/",
     },
     {
-      icon: "src/assets/usecases/pilgrimage.png",
+      icon: "/usecases/pilgrimage.png",
       title: "The Pilgrimage",
       subtitle: "Interactive pilgrimage platform",
       description:
@@ -37,7 +37,7 @@ export const UseCasesSection: React.FC = () => {
       url: "https://pilgrimage.utopia-map.org/",
     },
     {
-      icon: "src/assets/usecases/vision-gesundheit.png",
+      icon: "/usecases/vision-gesundheit.png",
       title: "Vision Gesundheit",
       subtitle: "Holistic healthcare organisation",
       description:
@@ -45,7 +45,7 @@ export const UseCasesSection: React.FC = () => {
       url: "https://vision-gesundheit.utopia-map.org/",
     },
     {
-      icon: "src/assets/usecases/essbare-stadt-kassel.png",
+      icon: "/usecases/essbare-stadt-kassel.png",
       title: "Essbare Stadt Kassel",
       subtitle: "Urban agriculture initiative",
       description:

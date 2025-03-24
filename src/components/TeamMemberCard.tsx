@@ -29,7 +29,7 @@ export const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
                 <p className="text-base leading-5 text-neutral-600">{role}</p>
               </div>
               <img
-                  src="/src/assets/quote.png"
+                  src="/quote.png"
                   alt="Quote symbol"
                   className="w-8 h-8 object-contain max-sm:hidden"
               />

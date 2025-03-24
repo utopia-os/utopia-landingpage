@@ -27,7 +27,7 @@ export const HeroSection: React.FC = () => {
           </div>
           <div className="absolute right-0 bottom-0 w-[45%] max-md:static max-md:w-full">
             <img
-                src="/src/assets/world.png"
+                src="/world.png"
                 alt="Globe visualization"
                 className="w-full h-auto object-contain"
             />
