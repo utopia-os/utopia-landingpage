@@ -30,7 +30,7 @@ export const UseCaseCard: React.FC<UseCaseCardProps> = ({
     </div>
     <p>{description}</p>
     <div className="card-actions justify-end">
-      <a href={url} target="_blank"><button className="btn btn-primary">Check out</button></a>
+      <a href={url} target="_blank"><button className="btn bg-emerald-700 text-white rounded-full">Check out</button></a>
     </div>
   </div>
 </div>

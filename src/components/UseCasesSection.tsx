@@ -5,7 +5,7 @@ import { UseCaseCard } from "./UseCaseCard";
 export const UseCasesSection: React.FC = () => {
   const useCases = [
     {
-      icon: "//usecases/our-journey.png",
+      icon: "/usecases/our-journey.png",
       title: "Unsere Reise",
       subtitle: "Personal travel diary",
       description:
