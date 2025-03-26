@@ -15,14 +15,14 @@ export const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
   imageUrl,
 }) => {
   return (
-    <section className="card bg-white rounded-2xl shadow-2xl ml-12 max-w-lg">
+    <section className="card bg-white rounded-2xl shadow-lg ml-8 max-w-lg">
       <div className="card-body">
         <img
           src={imageUrl}
           alt={`${name} - ${role}`}
           className="absolute left-0 w-24 h-24 rounded-full -translate-x-2/4 "
         />
-        <div className="ml-16 max-sm:text-center">
+        <div className="ml-12">
           <header className="relative mb-8">
             <div className="flex justify-between items-center">
               <div>

@@ -35,11 +35,11 @@ export const TeamSection: React.FC = () => {
   ];
 
   return (
-    <section className="flex flex-col gap-24 items-center px-8 py-16">
-      <h2 className="text-xs font-medium tracking-wider text-gray-400 uppercase">
-        who's behind utopia
+    <section className="flex flex-col gap-16 items-center px-8 py-16 pb-24">
+      <h2 className="text-4xl font-bold leading-10 text-center max-sm:text-3xl">
+        Who's behind Utopia?
       </h2>
-      <div className="flex flex-wrap gap-30 justify-center max-md:gap-10">
+      <div className="flex flex-wrap gap-16 justify-center md:gap-20 lg:gap-24">
         {teamMembers.map((member, index) => (
           <TeamMemberCard key={index} {...member} />
         ))}

@@ -69,13 +69,13 @@ export const UseCasesSection: React.FC = () => {
           <UseCaseCard key={index} {...useCase} />
         ))}
       </div>
-      <p className="text-center leading-8 text-lg md:text-xl max-w-4xl mt-12">
-        Do you need a Map for your network?
+      <p className="text-center leading-8 md:leading-12 font text-2xl max-w-4xl">
+        Do you already have your network?
       </p>
       <a
           href="#"
       >
-        <span className="btn md:btn-lg rounded-full text-white bg-violet-600 hover:bg-violet-700">Get your customised map        <i className="ti ti-arrow-up-right" />
+        <span className="btn btn-lg rounded-full text-white bg-violet-600 hover:bg-violet-700">Get your customised map        <i className="ti ti-arrow-up-right" />
         </span>
       </a>
     </section>

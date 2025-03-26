@@ -42,7 +42,7 @@ export const StepsSection: React.FC = () => {
       </div>
       <a
           href="#"
-          className="flex gap-2 items-center justify-center px-5 py-0 mt-8 h-16 text-lg font-semibold text-white bg-blue-700 hover:bg-blue-800 transition-colors duration-200 ease-in-out cursor-pointer border-[none] rounded-[1000px] no-underline"
+          className="btn btn-lg rounded-full text-white bg-blue-700"
       >
         <span>Try out maps</span>
         <i className="ti ti-arrow-up-right" />
