@@ -1,17 +1,19 @@
-import {  useState } from "react"
+import { useEffect, useState } from "react"
 
 export const ThemeControler = () => {
     const [theme, setTheme] = useState<string>('default')
 
-const toggelTheme = () => {
-    if(theme==="default")
-    setTheme("dark")
-else setTheme("light")
-}
-    
+    const toggelTheme = () => {
+        if (theme === "default" || theme === "light") setTheme("dark")
+        else if (theme==="dark") setTheme("light")
+    }
+
+    useEffect(() => {
+        console.log(theme);
+    }, [theme])
 
     return (
-        <label className="ml-8 swap swap-rotate"                 onClick={() => toggelTheme()}>
+        <label className="ml-8 swap swap-rotate" onClick={() => toggelTheme()}>
             {/* this hidden checkbox controls the state */}
             <input type="checkbox" className="theme-controller" value={theme} />
 

@@ -4,7 +4,7 @@ import { UseCasesSection } from "./sections/UseCasesSection";
 import { StepsSection } from "./sections/StepsSection";
 import { TeamSection } from "./sections/TeamSection";
 import { FutureSection } from "./sections/FutureSection";
-import { Footer } from "./components/Footer";
+import { Footer } from "./sections/Footer";
 import { Navbar } from "./components/Navbar";
 
 function App() {

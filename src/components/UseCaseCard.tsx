@@ -20,7 +20,7 @@ export const UseCaseCard: React.FC<UseCaseCardProps> = ({
 <div className="card rounded-2xl bg-base-100 w-96 shadow-2xl">
   <div className="card-body">
   <div className="flex items-center space-x-2">
-        <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-200">
+        <div className="w-10 h-10 rounded-full overflow-hidden">
             <img className="w-full h-full object-cover" src={icon} alt="Avatar"/>
         </div>
         <div className="overflow-hidden">
@@ -28,7 +28,7 @@ export const UseCaseCard: React.FC<UseCaseCardProps> = ({
             <p className="text-xs text-gray-500 truncate">{subtitle}</p>
         </div>
     </div>
-    <p>{description}</p>
+    <p className="py-2">{description}</p>
     <div className="card-actions justify-end">
       <a href={url} target="_blank"><button className="btn bg-emerald-700 text-white rounded-full">Show Map</button></a>
     </div>

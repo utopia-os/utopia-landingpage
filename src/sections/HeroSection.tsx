@@ -9,17 +9,17 @@ export const HeroSection: React.FC = () => {
             <h1 className="text-6xl font-bold leading-16 max-sm:text-4xl">
               Maps to connect and create
             </h1>
-            <p className="text-xl leading-8 max-sm:text-lg">
-              <b>Grow your Community</b> with our Collaborative Maps that empower
+            <p className="leading-8 text-lg md:text-xl ">
+              <b>Grow your Community with our Collaborative Maps</b> that empower
               everyone build decentralized real-life networks to co-create
               positive change in your area and everywhere in the world ✨
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href="#" className="btn rounded-full !bg-[#05966a] hover:!bg-[#048257] text-white">
+              <a href="#" className="btn md:btn-lg rounded-full !bg-[#05966a] hover:!bg-[#048257] text-white">
                 <span>Try out maps</span>
                 <i className="ti ti-arrow-up-right" />
               </a>
-              <a href="#" className="btn rounded-full  !bg-[#C4037D] hover:!bg-[#A50268] text-white">
+              <a href="#" className="btn md:btn-lg rounded-full  !bg-[#C4037D] hover:!bg-[#A50268] text-white">
                 <span>Join us</span>
                 <i className="ti ti-arrow-up-right" />
               </a>

@@ -12,7 +12,7 @@ export const FutureSection: React.FC = () => {
     },
     {
       icon: "rocket",
-      title: "Maps as potential development game",
+      title: "Real Life Manifestation Games",
       description:
         "Real-life quests and challenges as a playful way to discover new opportunities and unlock your potential.",
     },
@@ -44,11 +44,11 @@ export const FutureSection: React.FC = () => {
             thriving future. Together, we can change the world.
           </p>
           <div className="flex flex-wrap gap-3">
-            <a href="#" className="flex gap-2 justify-center items-center px-5 py-0 h-16 text-lg font-semibold text-white !bg-[#05966a] hover:!bg-[#048257] focus:!outline-none transition-colors duration-200 ease-in-out !border-0 rounded-[1000px] max-sm:w-full no-underline">
+            <a href="#" className="btn btn-lg rounded-full text-white !bg-[#05966a]">
               <span>Try out maps</span>
               <i className="ti ti-arrow-up-right" />
             </a>
-            <a href="#" className="flex gap-2 justify-center items-center px-5 py-0 h-16 text-lg font-semibold text-white !bg-[#2563eb] hover:!bg-[#1e40af] focus:!outline-none transition-colors duration-200 ease-in-out !border-0 rounded-[1000px] max-sm:w-full no-underline">
+            <a href="#" className="btn btn-lg rounded-full text-white !bg-[#2563eb]">
               <span>Support funding</span>
               <i className="ti ti-arrow-up-right" />
             </a>
