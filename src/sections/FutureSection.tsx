@@ -92,7 +92,7 @@ export const FutureSection: React.FC = () => {
                 </div>
                 <div className="flex text-center sm:text-left flex-col gap-2">
                 <h3 className="text-2xl font-bold">{t("Future_Step3_Title")}</h3>
-                <p className="">{t("Future_Step3  _Desc")}</p>
+                <p className="">{t("Future_Step3_Desc")}</p>
                 </div>
               </div>
             </div>
