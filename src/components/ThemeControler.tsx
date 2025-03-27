@@ -15,7 +15,7 @@ export const ThemeControler = () => {
         <>
             <input type="checkbox" className="theme-controller hidden" value="light" checked={theme==="light"}/>
             <input type="checkbox" className="theme-controller hidden" value="dark" checked={theme==="dark"}/>
-            <div className="ml-4 mt-2">
+            <div className="ml-8 mt-2">
             {theme === "light" ? (
                 <svg
                     className={`h-6 w-6 fill-current cursor-pointer`}

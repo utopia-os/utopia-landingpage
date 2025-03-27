@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
     const legalLinks = [
         { text: 'Imprint', href: '#' },
         { text: 'Privacy policy', href: '#' },
-        { text: 'GPL-3.0 Licence', href: '#' }
+        { text: 'GPL-3.0 Licence', href: 'https://github.com/utopia-os/utopia-ui?tab=GPL-3.0-1-ov-file#readme' }
     ];
 
     return (

@@ -40,7 +40,7 @@ export const Navbar = () => {
             </ul>
             <div className="flex flex-row">
             <ThemeControler/>
-            <a className="ml-6 md:ml-8" href="https://opencollective.com/utopia-project"><button className="btn bg-emerald-700 text-white rounded-full self-endend ">Support Funding</button></a>
+            <a className="ml-8 md:ml-8" href="https://opencollective.com/utopia-project"><button className="btn bg-emerald-700 text-white rounded-full self-endend ">Support Funding</button></a>
             </div>
         </div>
     )
