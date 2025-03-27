@@ -70,7 +70,7 @@ export const TeamSection: React.FC = () => {
       <a
           href="#"
       >
-        <span className="btn btn-lg rounded-full text-white !bg-[#C4037D] hover:!bg-[#A50268]">{t("Team_Button")}<i className="ti ti-arrow-up-right" />
+        <span className="btn btn-lg h-15 rounded-full text-white !bg-[#C4037D] hover:!bg-[#A50268]">{t("Team_Button")}<i className="ti ti-arrow-up-right" />
         </span>
       </a>
     </section>

@@ -25,7 +25,7 @@ export const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <ul className="menu menu-horizontal px-1 space-x-8 hidden lg:flex">
+            <ul className="menu menu-horizontal px-1 space-x-6 hidden lg:flex">
                 <li><a>Welcome</a></li>
                 <li><a>Vision</a></li>
                 <li><a>Customizing</a></li>
@@ -42,7 +42,7 @@ export const Navbar = () => {
             <div className="flex flex-row">
             <ThemeController/>
             <LanguageController/>
-            <a className="ml-8 lg:ml-8" href="https://opencollective.com/utopia-project"><button className="btn bg-emerald-700 text-white rounded-full self-endend ">Support Funding</button></a>
+            <a className="ml-6 shrink-0" href="https://opencollective.com/utopia-project"><button className="btn bg-emerald-700 text-white rounded-full self-endend ">Support Funding</button></a>
             </div>
         </div>
     )

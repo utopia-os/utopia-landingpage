@@ -83,13 +83,13 @@ const {t} = useTranslation()
           <UseCaseCard key={index} {...useCase} />
         ))}
       </div>
-      <p className="text-center leading-8 md:leading-12 font text-2xl max-w-4xl">
+      <p className="text-center font-semibold leading-8 md:leading-12 font text-2xl max-w-4xl">
         {t("Usecases_Question")}
       </p>
       <a
           href="#"
       >
-        <span className="btn btn-lg rounded-full text-white bg-[#2563eb] hover:bg-[#1e40af]">{t("Usecases_Button")}<i className="ti ti-arrow-up-right" />
+        <span className="btn btn-lg h-15 rounded-full text-white bg-[#2563eb] hover:bg-[#1e40af]">{t("Usecases_Button")}<i className="ti ti-arrow-up-right" />
         </span>
       </a>
     </section>

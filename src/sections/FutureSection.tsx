@@ -53,56 +53,47 @@ export const FutureSection: React.FC = () => {
   ];
 
   return (
-    <section className="flex justify-center  px-8 py-16 bg-sky-500/15 rounded-t-4xl">
+    <section className="flex justify-center px-8 py-16 bg-sky-500/15 rounded-t-4xl">
       <div className="flex gap-16 max-w-[1200px] flex-col lg:flex-row">
         <div className="flex flex-col gap-8 max-lg:items-center max-lg:text-center">
-          <h2 className="text-3xl lg:text-5xl font-bold leading-10  lg:leading-14">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-10 sm:leading-12 md:leading-14">
             {t("Future_Heading")}
           </h2>
           <p className="text-center lg:text-left leading-8 text-lg lg:text-xl max-w-4xl">
             {t("Future_Intro")}
           </p>
           <div>
-            <div className="card">
-              <div className="card-body px-0 sm:justify-start flex sm:flex-row gap-8 justify-center items-center">
-                <div className="flex justify-center text-center sm:text-left items-center bg-orange-600 rounded-2xl border-2 border-orange-700 border-solid h-[72px] w-[72px] min-w-[72px]">
-                  <i className={`ti ti-list-details text-4xl text-white`} />
-                </div>
-                <div className="flex text-center sm:text-left flex-col gap-2">
-                  <h3 className="text-2xl font-bold">{t("Future_Step1_Title")}</h3>
-                  <p className="">{t("Future_Step1_Desc")}</p>
+            <div className="card ml-4">
+              <div className="card-body px-0 sm:justify-start flex sm:flex-row gap-4 justify-center items-center">
+                <div className="flex text-center lg:text-left flex-col gap-2 w-full">
+                  <h3 className="text-2xl font-bold">1. {t("Future_Step1_Title")}</h3>
+                  <p className="ml-0 lg:ml-6">{t("Future_Step1_Desc")}</p>
                 </div>
               </div>
             </div>
-            <div className="card">
-              <div className="card-body px-0  sm:justify-start flex sm:flex-row gap-8 justify-center items-center">
-                <div className="flex justify-center text-center sm:text-left items-center bg-blue-600 rounded-2xl border-2 border-blue-700 border-solid h-[72px] w-[72px] min-w-[72px]">
-                  <i className={`ti ti-moneybag-heart text-4xl text-white`} />
-                </div>
-                <div className="flex text-center sm:text-left flex-col gap-2">
-                <h3 className="text-2xl font-bold">{t("Future_Step2_Title")}</h3>
-                <p className="">{t("Future_Step2_Desc")}</p>
+            <div className="card ml-4">
+              <div className="card-body px-0  sm:justify-start flex sm:flex-row gap-4 justify-center items-center">
+                <div className="flex text-center lg:text-left flex-col gap-2 w-full">
+                <h3 className="text-2xl font-bold">2. {t("Future_Step2_Title")}</h3>
+                <p className="ml-0 lg:ml-6">{t("Future_Step2_Desc")}</p>
                 </div>
               </div>
             </div>
-            <div className="card">
-              <div className="card-body px-0  sm:justify-start flex sm:flex-row gap-8 justify-center items-center">
-                <div className="flex justify-center text-center sm:text-left items-center bg-violet-600 rounded-2xl border-2 border-violet-700 border-solid h-[72px] w-[72px] min-w-[72px]">
-                  <i className={`ti ti-${"eye"} text-4xl text-white`} />
-                </div>
-                <div className="flex text-center sm:text-left flex-col gap-2">
-                <h3 className="text-2xl font-bold">{t("Future_Step3_Title")}</h3>
-                <p className="">{t("Future_Step3_Desc")}</p>
+            <div className="card ml-4">
+              <div className="card-body px-0  sm:justify-start flex sm:flex-row gap-4 justify-center items-center">
+                <div className="flex text-center lg:text-left flex-col gap-2 w-full">
+                <h3 className="text-2xl font-bold">3. {t("Future_Step3_Title")}</h3>
+                <p className="ml-0 lg:ml-6">{t("Future_Step3_Desc")}</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="flex-wrap gap-3 hidden md:flex">
-            <a href="#" className="btn btn-lg rounded-full text-white bg-[#05966a] hover:bg-[#048257] ">
+            <a href="#" className="btn h-15 btn-lg rounded-full text-white bg-[#05966a] hover:bg-[#048257] ">
               <span>{t("Future_Button1")}</span>
               <i className="ti ti-arrow-up-right" />
             </a>
-            <a href="#" className="btn md:btn-lg rounded-full  !bg-[#C4037D] hover:!bg-[#A50268] text-white">
+            <a href="#" className="btn h-15 md:btn-lg rounded-full  !bg-[#C4037D] hover:!bg-[#A50268] text-white">
               <span>{t("Future_Button2")}</span>
               <i className="ti ti-arrow-up-right" />
             </a>

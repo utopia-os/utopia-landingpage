@@ -9,7 +9,7 @@ const resources = {
     translation: {
       Hero_Heading: "Maps to connect and create",
       Hero_Intro:
-        "Grow your Community with our Collaborative Maps that empower everyone build decentralized real-life networks to co-create positive change in your area and everywhere in the world ✨",
+        "Grow your Community with our Collaborative Maps that empower everyone build decentralized real-life networks to co-create positive change in your area and everywhere in the world",
       Explainer_Heading: "What is Utopia and how does it work?",
       Usecases_Heading: "Explore the ways our maps are used",
       Usecases_Intro:
@@ -17,7 +17,7 @@ const resources = {
       Usecases_Question: "Do you already have your network?",
       Usecases_Button: "Get your Custom Map",
       Team_Heading: "Who's behind Utopia?",
-      Team_Button: "Join us",
+      Team_Button: "Join Utopia",
       Show_Map_Button: "Show Map",
       Future_Heading: "Your contribution decides what’s coming next",
       Future_Intro:
