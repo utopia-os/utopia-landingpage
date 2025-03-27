@@ -13,20 +13,20 @@ export const UseCasesSection: React.FC = () => {
       url: "https://www.wuerdekompass.org/aktivitaeten/gruppensuche",
     },
     {
-      icon: "/usecases/docutopia.png",
-      title: "Docutopia",
-      subtitle: "Sustainable community platform",
-      description:
-        "Helping 50+ people to find their tribe and co-create harmonious society with dynamic real-time updates so that is easy to be a part of it.",
-      url: "https://next.docutopia.de/",
-    },
-    {
       icon: "/usecases/pilgrimage.png",
       title: "The Pilgrimage",
       subtitle: "Interactive pilgrimage platform",
       description:
         "Planning routes, exploring sacred sites, participating in rituals and projects, and documenting journeys with multimedia.",
       url: "https://pilgrimage.utopia-map.org/",
+    },
+    {
+      icon: "/usecases/docutopia.png",
+      title: "Docutopia",
+      subtitle: "Sustainable community platform",
+      description:
+        "Helping 50+ people to find their tribe and co-create harmonious society with dynamic real-time updates so that is easy to be a part of it.",
+      url: "https://next.docutopia.de/",
     },
     {
       icon: "/usecases/vision-gesundheit.png",
@@ -55,7 +55,7 @@ export const UseCasesSection: React.FC = () => {
   ];
 
   return (
-    <section className="flex flex-col px-8 py-16 gap-12 items-center bg-sky-500/15 text-base-content rounded-t-4xl">
+    <section className="flex flex-col px-8 py-16 gap-12 items-center bg-sky-500/15 text-base-content rounded-4xl">
       <h2 className="md:text-4xl font-bold leading-10 text-center text-3xl">
         Here's how our maps are used
       </h2>
@@ -75,7 +75,7 @@ export const UseCasesSection: React.FC = () => {
       <a
           href="#"
       >
-        <span className="btn btn-lg rounded-full text-white bg-violet-600 hover:bg-violet-700">Get your customised map        <i className="ti ti-arrow-up-right" />
+        <span className="btn btn-lg rounded-full text-white bg-[#2563eb] hover:bg-[#1e40af]">Get your Custom Map <i className="ti ti-arrow-up-right" />
         </span>
       </a>
     </section>

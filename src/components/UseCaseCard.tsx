@@ -30,7 +30,7 @@ export const UseCaseCard: React.FC<UseCaseCardProps> = ({
     </div>
     <p className="py-2">{description}</p>
     <div className="card-actions justify-end">
-      <a href={url} target="_blank"><button className="btn bg-emerald-700 text-white rounded-full">Show Map</button></a>
+      <a href={url} target="_blank"><button className="btn bg-emerald-700 hover:bg-emerald-800 text-white rounded-full">Show Map</button></a>
     </div>
   </div>
 </div>

@@ -31,7 +31,7 @@ export const StepsSection: React.FC = () => {
   ];
 
   return (
-    <section className="flex flex-col gap-24 items-center px-8 py-16 bg-sky-500/15 rounded-b-4xl">
+    <section className="flex flex-col gap-24 items-center px-8 py-16 pb-32 bg-sky-500/15 rounded-b-4xl">
       <h2 className="text-4xl font-bold leading-10 text-center max-sm:text-3xl">
         How you can connect and take the first steps
       </h2>
@@ -40,13 +40,6 @@ export const StepsSection: React.FC = () => {
           <StepCard key={index} {...step} />
         ))}
       </div>
-      <a
-          href="#"
-          className="btn btn-lg rounded-full text-white bg-blue-700"
-      >
-        <span>Try out maps</span>
-        <i className="ti ti-arrow-up-right" />
-      </a>
     </section>
   );
 };

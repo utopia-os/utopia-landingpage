@@ -6,7 +6,7 @@ export const FutureSection: React.FC = () => {
   const features = [
     {
       icon: "messages",
-      title: "Maps as social media",
+      title: "Maps for Social Networking",
       description:
         "Where people and places meet. Chat, talk, meet, follow your favourite people, but on maps",
     },
@@ -18,13 +18,13 @@ export const FutureSection: React.FC = () => {
     },
     {
       icon: "gift",
-      title: "Maps as market place",
+      title: "Maps as p2p Market Places",
       description:
         "A marketplace where location meets opportunity. Selling or buying a toaster or your time - bring it here!",
     },
     {
       icon: "speakerphone",
-      title: "Maps as events platform",
+      title: "Maps for Event Organizing",
       description:
         "Discover and create events that matter to you and your community. From workshops to festivals, it's all on the map.",
     },
@@ -44,12 +44,12 @@ export const FutureSection: React.FC = () => {
             thriving future. Together, we can change the world.
           </p>
           <div className="flex-wrap gap-3 hidden md:flex">
-            <a href="#" className="btn btn-lg rounded-full text-white !bg-[#05966a]">
-              <span>Try out maps</span>
+            <a href="#" className="btn btn-lg rounded-full text-white bg-[#2563eb] hover:bg-[#1e40af]">
+              <span>Get your Custom Map</span>
               <i className="ti ti-arrow-up-right" />
             </a>
-            <a href="#" className="btn btn-lg rounded-full text-white !bg-[#2563eb]">
-              <span>Support funding</span>
+            <a href="#" className="btn btn-lg rounded-full text-white bg-[#05966a] hover:bg-[#048257] ">
+              <span>Support Funding</span>
               <i className="ti ti-arrow-up-right" />
             </a>
           </div>
