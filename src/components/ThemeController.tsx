@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useDarkMode } from "./hooks/useDarkmode";
 
-export const ThemeControler = () => {
+export const ThemeController = () => {
     const [theme, setTheme] = useState<string>('')
 
     const darkMode = useDarkMode();
@@ -15,7 +15,7 @@ export const ThemeControler = () => {
         <>
             <input type="checkbox" className="theme-controller hidden" value="light" checked={theme==="light"}/>
             <input type="checkbox" className="theme-controller hidden" value="dark" checked={theme==="dark"}/>
-            <div className="ml-8 mt-2">
+            <div className="btn btn-sm btn-ghost ml-8 mt-1">
             {theme === "light" ? (
                 <svg
                     className={`h-6 w-6 fill-current cursor-pointer`}

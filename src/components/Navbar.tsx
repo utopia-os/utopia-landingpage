@@ -1,10 +1,11 @@
-import { ThemeControler } from "./ThemeControler"
+import { LanguageController } from "./LanguageController"
+import { ThemeController } from "./ThemeController"
 
 export const Navbar = () => {
     return (
-        <div className="navbar justify-between font-bold fixed py-2 md:top-4 md:right-4 md:w-fit right-0 top-0 w-full  bg-base-100/95 shadow-2xl z-50 md:rounded-full p-4">
+        <div className="navbar justify-between font-bold fixed py-2 lg:top-4 lg:right-4 lg:w-fit right-0 top-0 w-full  bg-base-100/95 shadow-2xl z-50 lg:rounded-full p-4">
             <div className="dropdown">
-                <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
+                <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>
@@ -24,7 +25,7 @@ export const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <ul className="menu menu-horizontal px-1 space-x-8 hidden md:flex">
+            <ul className="menu menu-horizontal px-1 space-x-8 hidden lg:flex">
                 <li><a>Welcome</a></li>
                 <li><a>Vision</a></li>
                 <li><a>Customizing</a></li>
@@ -39,8 +40,9 @@ export const Navbar = () => {
                 </li>
             </ul>
             <div className="flex flex-row">
-            <ThemeControler/>
-            <a className="ml-8 md:ml-8" href="https://opencollective.com/utopia-project"><button className="btn bg-emerald-700 text-white rounded-full self-endend ">Support Funding</button></a>
+            <ThemeController/>
+            <LanguageController/>
+            <a className="ml-8 lg:ml-8" href="https://opencollective.com/utopia-project"><button className="btn bg-emerald-700 text-white rounded-full self-endend ">Support Funding</button></a>
             </div>
         </div>
     )
