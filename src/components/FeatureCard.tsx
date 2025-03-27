@@ -1,10 +1,17 @@
 "use client";
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 
 interface FeatureCardProps {
   icon: string;
-  title: string;
-  description: string;
+  title: {
+    en: string;
+    de: string
+  };
+  description: {
+    en: string;
+    de: string
+  };
 }
 
 export const FeatureCard: React.FC<FeatureCardProps> = ({
@@ -12,6 +19,8 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
   title,
   description,
 }) => {
+  const { i18n } = useTranslation();
+  const lang = i18n.language as 'de' | 'en';
   return (
     <div className="card bg-base-100 rounded-2xl p-4 shadow-2xl">
       <div className="card-body sm:justify-start flex sm:flex-row gap-8 justify-center items-center">
@@ -19,8 +28,8 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
           <i className={`ti ti-${icon} text-4xl text-white`} />
         </div>
         <div className="flex text-center sm:text-left flex-col gap-2">
-          <h3 className="text-2xl font-bold">{title}</h3>
-          <p className="">{description}</p>
+          <h3 className="text-2xl font-bold">{title[lang]}</h3>
+          <p className="">{description[lang]}</p>
         </div>
       </div>
     </div>
