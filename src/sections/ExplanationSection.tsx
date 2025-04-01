@@ -6,7 +6,7 @@ export const ExplanationSection: React.FC = () => {
       const { t } = useTranslation();
     
     return (
-        <section className="flex flex-col gap-12 items-center px-4 py-24 md:px-20">
+        <section className="flex flex-col gap-12 md:gap-18 py-12 md:py-18 items-center px-4 md:px-20">
             <h2 className="text-4xl font-bold leading-10 text-center max-sm:text-3xl">
                 {t('Explainer_Heading')}
             </h2>

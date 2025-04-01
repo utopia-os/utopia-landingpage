@@ -9,7 +9,7 @@ const resources = {
     translation: {
       Hero_Heading: "Maps to connect and create",
       Hero_Intro:
-        "Grow your Community with our Collaborative Maps that empower everyone build decentralized real-life networks to co-create positive change in your area and everywhere in the world",
+        "<b>Grow your Community with our Collaborative Maps</b> that empower everyone to build decentralized real-life networks to co-create positive change - in your area and everywhere in the world.",
       Explainer_Heading: "What is Utopia and how does it work?",
       Usecases_Heading: "Explore the ways our maps are used",
       Usecases_Intro:
@@ -17,7 +17,7 @@ const resources = {
       Usecases_Question: "Do you already have your network?",
       Usecases_Button: "Get your Custom Map",
       Team_Heading: "Who's behind Utopia?",
-      Team_Button: "Join Utopia",
+      Team_Button: "Join us Building Utopia",
       Show_Map_Button: "Show Map",
       Future_Heading: "Your contribution decides what’s coming next",
       Future_Intro:
@@ -29,15 +29,15 @@ const resources = {
         "Donate to your favorite module and cast your vote for it.",
       Future_Step3_Title: "Track Development",
       Future_Step3_Desc:  "See in real-time how many votes and funds each module has received.",
-      Future_Button1: "Propose Ideas",
-      Future_Button2: "Help with Implementation",
+      Future_Button1: "Propose your Ideas",
+      Future_Button2: "Join us Building Utopia",
     },
   },
   de: {
     translation: {
       Hero_Heading: "Utopia Community Mapping",
       Hero_Intro:
-        "Mache deine Community sichtbar und gestaltet zusammen den Wandel! Nutze interaktive Karten, um Events zu planen und an realen Quests teilzunehmen. Teile deine Ressourcen, vernetze dich und setze Veränderungen in Bewegung!",
+        "<b>Erschaffe deine Community mit unseren kollaborativen Karten</b>, die es dir ermöglichen, dezentrale, reale Netzwerke aufzubauen, um positive Veränderungen zu gestalten - in deiner Region und überall auf der Welt.",
       Explainer_Heading: "Was ist Utopia und wie funktioniert es?",
       Usecases_Heading: "So werden unsere Karten genutzt",
       Usecases_Intro:

@@ -9,8 +9,8 @@ export const TeamSection: React.FC = () => {
     {
       name: "Anton",
       role: {
-        en: "Mapping & Free Software",
-        de: "Kartierung & freie Software",
+        en: "Map Designer",
+        de: "Map Designer",
       },
       quote: {
         en: "We are a group of creators and change-makers who believe amazing things can happen with the power of collective action.",
@@ -33,8 +33,8 @@ export const TeamSection: React.FC = () => {
     {
       name: "Shaira",
       role: {
-        en: "Support",
-        de: "Unterstützung",
+        en: "Community Support",
+        de: "Community Support",
       },
       quote: {
         en: "Our mission is to connect the digital and real worlds to spark new ideas, make change and co-creation possible.",
@@ -45,8 +45,8 @@ export const TeamSection: React.FC = () => {
     {
       name: "Luca",
       role: {
-        en: "Mapping & Free Software",
-        de: "Kartierung & freie Software",
+        en: "Growth Marketing",
+        de: "Growth Marketing",
       },
       quote: {
         en: "More than anything, we want to help communities unlock their potential and bring big dreams to life—together.",
@@ -58,7 +58,7 @@ export const TeamSection: React.FC = () => {
   
 
   return (
-    <section className="flex flex-col gap-16 items-center px-8 py-16 pb-24">
+    <section className="flex flex-col gap-12 md:gap-18 py-12 md:py-18 items-center px-8">
       <h2 className="text-4xl font-bold leading-10 text-center max-sm:text-3xl">
         {t("Team_Heading")}
       </h2>
@@ -68,9 +68,9 @@ export const TeamSection: React.FC = () => {
         ))}
       </div>
       <a
-          href="#"
+          href="mailto:map@utopia-lab.org?subject=Join Utopia"
       >
-        <span className="btn btn-lg h-15 rounded-full text-white !bg-[#C4037D] hover:!bg-[#A50268]">{t("Team_Button")}<i className="ti ti-arrow-up-right" />
+        <span className="btn btn-lg h-12 md:h-14 rounded-full text-white !bg-[#C4037D] hover:!bg-[#A50268]">{t("Team_Button")}<i className="ti ti-arrow-up-right" />
         </span>
       </a>
     </section>

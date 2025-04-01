@@ -41,7 +41,7 @@ export const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
               <img
                 src="/quote.png"
                 alt="Quote symbol"
-                className="w-8 h-8 object-contain max-sm:hidden"
+                className="w-6 h-6 sm:w-8 sm:h-8 object-contain"
               />
             </div>
           </header>

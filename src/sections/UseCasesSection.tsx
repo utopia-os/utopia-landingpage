@@ -87,9 +87,9 @@ const {t} = useTranslation()
         {t("Usecases_Question")}
       </p>
       <a
-          href="#"
+          href="mailto:map@utopia-lab.org?subject=Custom Utopia Map"
       >
-        <span className="btn btn-lg h-15 rounded-full text-white bg-[#2563eb] hover:bg-[#1e40af]">{t("Usecases_Button")}<i className="ti ti-arrow-up-right" />
+        <span className="btn btn-lg h-12 md:h-14 rounded-full text-white bg-[#2563eb] hover:bg-[#1e40af]">{t("Usecases_Button")}<i className="ti ti-arrow-up-right" />
         </span>
       </a>
     </section>

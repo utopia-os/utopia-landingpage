@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import { LanguageController } from "./LanguageController"
 import { ThemeController } from "./ThemeController"
 
@@ -13,7 +14,7 @@ export const Navbar = () => {
                 <ul
                     tabIndex={0}
                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Welcome</a></li>
+                    <li><Link to="/">Welcome</Link></li>
                     <li><a>Vision</a></li>
                     <li><a>Customizing</a></li>
                     <li>
@@ -26,7 +27,7 @@ export const Navbar = () => {
                 </ul>
             </div>
             <ul className="menu menu-horizontal px-1 space-x-6 hidden lg:flex">
-                <li><a>Welcome</a></li>
+                <li><Link to="/">Welcome</Link></li>
                 <li><a>Vision</a></li>
                 <li><a>Customizing</a></li>
                 <li>
