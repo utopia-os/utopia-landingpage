@@ -1,9 +1,18 @@
 import { Navbar } from "./components/Navbar";
-import { Route, Routes } from "react-router";
+import { Route, Routes, useLocation } from "react-router";
 import { Home } from "./pages/Home";
 import { UtopiaModule } from "./pages/UtopiaModule";
+import { Customizing } from "./pages/Customizing";
+import { useEffect } from "react";
 
 function App() {
+
+    const location = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location]);
+
+
     return (
         <>
             <link
@@ -11,13 +20,12 @@ function App() {
                 href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
             />
             <main className="bg-base-100">
-                <div className="max-w-screen-2xl mx-auto p-1 md:p-2 flex justify-center">
-                    <Navbar />
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/module" element={<UtopiaModule />} />
-                    </Routes>
-                </div>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/module" element={<UtopiaModule />} />
+                    <Route path="/customizing" element={<Customizing />} />
+                </Routes>
             </main>
         </>
     );

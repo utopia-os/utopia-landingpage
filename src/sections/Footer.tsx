@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
     ];
 
     return (
-        <footer className="flex flex-col gap-2.5 justify-center items-center px-0 pt-24 pb-8 bg-emerald-700/90 rounded-b-4xl">
+        <footer className="flex flex-col gap-2.5 justify-center items-center px-0 pt-24 pb-8 bg-emerald-700/90">
             <div className="flex flex-col gap-8 items-center px-28 py-0 w-full max-w-[1200px] max-md:px-12 max-md:py-0 max-sm:px-6 max-sm:py-0">
 
                 <nav className="flex gap-8 justify-between mt-8 w-full max-md:flex-wrap max-md:gap-12 max-sm:flex-col max-sm:gap-8">

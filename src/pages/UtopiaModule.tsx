@@ -3,7 +3,7 @@ import Markdown from 'react-markdown'
 export const UtopiaModule = () => {
     return (
         <div>
-            <div className="mt-24 card card-body rounded-4xl bg-base-300  w-4xl  ">
+            <div className="mt-24 card card-body rounded-4xl bg-base-300">
                 <p className="text-5xl font-bold">Calendar Module</p>
                 <Markdown >
                     # 📅 Das Kalender-Modul der Utopia Map – Onepager

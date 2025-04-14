@@ -13,29 +13,27 @@ export const Navbar = () => {
                 </div>
                 <ul
                     tabIndex={0}
-                    className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    className="menu dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                     <li><Link to="/">Welcome</Link></li>
-                    <li><a>Vision</a></li>
-                    <li><a>Customizing</a></li>
+                    <li><Link to="/customizing">Customizing</Link></li>
                     <li>
                         <a>Ressources</a>
                         <ul className="p-2">
-                            <li><a>Code</a></li>
-                            <li><a>Concepts</a></li>
+                        <li><Link to={"https://github.com/utopia-os"}>Code</Link></li>
+                        <li><Link to={"https://opencollective.com/utopia-project"}>Funding</Link></li>
                         </ul>
                     </li>
                 </ul>
             </div>
             <ul className="menu menu-horizontal px-1 space-x-6 hidden lg:flex">
                 <li><Link to="/">Welcome</Link></li>
-                <li><a>Vision</a></li>
-                <li><a>Customizing</a></li>
+                <li><Link to="/customizing">Customizing</Link></li>
                 <li>
                     <details>
                         <summary>Ressources</summary>
                         <ul className="bg-base-100 rounded-t-none p-2">
-                            <li><a>Link 1</a></li>
-                            <li><a>Link 2</a></li>
+                            <li><Link to={"https://github.com/utopia-os"}>Code</Link></li>
+                            <li><Link to={"https://opencollective.com/utopia-project"}>Funding</Link></li>
                         </ul>
                     </details>
                 </li>

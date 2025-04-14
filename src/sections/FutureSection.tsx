@@ -53,7 +53,7 @@ export const FutureSection: React.FC = () => {
   ];
 
   return (
-    <><section className="flex justify-center px-8 pt-16 bg-sky-500/15 rounded-t-4xl">
+    <><section className="flex justify-center px-8 pt-16 bg-sky-500/15">
       <div className="flex gap-16 max-w-[1200px] flex-col lg:flex-row">
         <div className="flex flex-col gap-8 max-lg:items-center max-lg:text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-10 sm:leading-12 md:leading-14">

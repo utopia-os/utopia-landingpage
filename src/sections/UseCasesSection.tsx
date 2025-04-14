@@ -2,6 +2,7 @@
 import React from 'react';
 import { UseCaseCard } from '../components/UseCaseCard';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router';
 
 
 
@@ -31,10 +32,10 @@ const useCases = [
     title: "Docutopia",
     subtitle: "Sustainable community platform",
     description: {
-      en: "Helping 50+ people to find their tribe and co-create harmonious society with dynamic real-time updates so that it is easy to be a part of it.",
+      en: "A decentralised multiverse that combines art, technology and sustainability and promotes eco-social transformation.",
       de: "Ein dezentrales Multiversum, das Kunst, Technologie und Nachhaltigkeit verbindet, und  ökosoziale Transformation fördert."
     },
-    url: "https://next.docutopia.de/",
+    url: "https://docutopia.de/",
   },
   {
     icon: "/usecases/vision-gesundheit.png",
@@ -44,7 +45,7 @@ const useCases = [
       en: 'Finding "houses of healing" for everyone looking for better healthcare while helping people work together and support each other.',
       de: "„Häuser der Heilung“ finden, für alle die nach besserer Gesundheitsversorgung suchen und sich Zusammenarbeit wünschen."
     },
-    url: "https://vision-gesundheit.utopia-map.org/",
+    url: "https://www.vision-gesundheit.de/weg-zur-gr%C3%BCndung/karte-der-initiativen/",
   },
   {
     icon: "/usecases/essbare-stadt-kassel.png",
@@ -71,7 +72,7 @@ const useCases = [
 export const UseCasesSection: React.FC = () => {
 const {t} = useTranslation()
   return (
-    <section className="flex flex-col px-8 py-16 gap-12 items-center bg-sky-500/15 text-base-content rounded-4xl">
+    <section className="flex flex-col px-8 py-16 gap-12 items-center bg-sky-500/15 text-base-content">
       <h2 className="md:text-4xl font-bold leading-10 text-center text-3xl">
         {t("Usecases_Heading")}
       </h2>
@@ -86,12 +87,12 @@ const {t} = useTranslation()
       <p className="text-center font-semibold leading-8 md:leading-12 font text-2xl max-w-4xl">
         {t("Usecases_Question")}
       </p>
-      <a
-          href="mailto:map@utopia-lab.org?subject=Custom Utopia Map"
+      <Link preventScrollReset={false} to="/customizing"
+         
       >
         <span className="btn btn-lg h-12 md:h-14 rounded-full text-white bg-[#2563eb] hover:bg-[#1e40af]">{t("Usecases_Button")}<i className="ti ti-arrow-up-right" />
         </span>
-      </a>
+      </Link>
     </section>
   );
 };

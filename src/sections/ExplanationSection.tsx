@@ -12,7 +12,7 @@ export const ExplanationSection: React.FC = () => {
             </h2>
             <div className="w-full max-w-4xl mx-auto aspect-[1.49]">
                 <iframe src="https://www.youtube-nocookie.com/embed/0Kp4wtnaGqY?si=MUfQUdYoBkiOhy9f"
-                    className="w-full h-full rounded-2xl md:rounded-4xl shadow-2xl"
+                    className="w-full h-full rounded-2xl md:rounded-4xl shadow-2xl border-2 border-base-300"
                     title="YouTube video player" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"

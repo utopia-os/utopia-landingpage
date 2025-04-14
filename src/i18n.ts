@@ -35,9 +35,9 @@ const resources = {
   },
   de: {
     translation: {
-      Hero_Heading: "Utopia Community Mapping",
+      Hero_Heading: "Utopia - Maps für Communitys",
       Hero_Intro:
-        "<b>Erschaffe deine Community mit unseren kollaborativen Karten</b>, die es dir ermöglichen, dezentrale, reale Netzwerke aufzubauen, um positive Veränderungen zu gestalten - in deiner Region und überall auf der Welt.",
+        "<b>Erschaffe deine Community mit unseren kollaborativen Maps</b>, die es dir ermöglichen, dezentrale, reale Netzwerke aufzubauen, um positive Veränderungen zu gestalten - in deiner Region und überall auf der Welt.",
       Explainer_Heading: "Was ist Utopia und wie funktioniert es?",
       Usecases_Heading: "So werden unsere Karten genutzt",
       Usecases_Intro:
