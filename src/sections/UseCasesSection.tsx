@@ -29,12 +29,12 @@ const useCases = [
   {
     icon: "/usecases/docutopia.png",
     title: "Docutopia",
-    subtitle: "Sustainable community platform",
+    subtitle: "SymbioticSynergySolutionEwS",
     description: {
-      en: "Helping 50+ people to find their tribe and co-create harmonious society with dynamic real-time updates so that it is easy to be a part of it.",
-      de: "Ein dezentrales Multiversum, das Kunst, Technologie und Nachhaltigkeit verbindet, und  ökosoziale Transformation fördert."
+      en: "Let’s heal mother eARTh together through the Arts, for the next generations to inherit a healthy and peaceful past.",
+      de: "Lasst uns gemeinsam Mutter Erde durch die Künste heilen, damit die nächsten Generationen eine gesunde und friedliche Vergangenheit erben können."
     },
-    url: "https://next.docutopia.de/",
+    url: "https://docutopia.de/",
   },
   {
     icon: "/usecases/vision-gesundheit.png",
