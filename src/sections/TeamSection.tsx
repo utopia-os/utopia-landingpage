@@ -13,8 +13,8 @@ export const TeamSection: React.FC = () => {
         de: "Map Designer",
       },
       quote: {
-        en: "We are a group of creators and change-makers who believe amazing things can happen with the power of collective action.",
-        de: "Wir sind eine Gruppe von Schöpfern und Veränderern, die daran glauben, dass mit der Kraft kollektiven Handelns erstaunliche Dinge geschehen können.",
+        en: "We are a group of creators and change-makers who believe in the power of collective action and local initiative.",
+        de: "Wir sind eine Gruppe von Machern und Veränderern, die an die Kraft kollektiven Handelns und lokaler Eigeninitative glauben.",
       },
       imageUrl: "/team/anton.png",
     },
@@ -25,8 +25,8 @@ export const TeamSection: React.FC = () => {
         de: "Visionär",
       },
       quote: {
-        en: "Our goal is to create collaborative maps to connect people, projects and resources in ways that matter.",
-        de: "Unser Ziel ist es, kollaborative Karten zu erstellen, um Menschen, Projekte und Ressourcen auf sinnvolle Weise zu verbinden.",
+        en: "Our goal is to create collaborative maps to connect people, projects and resources in real life.",
+        de: "Unser Ziel ist es, kollaborative Karten zu erstellen, um Menschen, Projekte und Ressourcen im echten Leben zu verbinden.",
       },
       imageUrl: "/team/timo.png",
     },

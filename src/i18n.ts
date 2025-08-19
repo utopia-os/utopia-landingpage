@@ -13,7 +13,7 @@ const resources = {
       Explainer_Heading: "What is Utopia and how does it work?",
       Usecases_Heading: "Explore the ways our maps are used",
       Usecases_Intro:
-        "Different goals, different maps. We're all about sparking genuine connections and making a positive impact in the world. Here's the magic of Utopia:",
+        "Different communities, different maps. We focus on making real connections and bringing about positive change in the world.",
       Usecases_Question: "Do you already have your network?",
       Usecases_Button: "Get your Custom Map",
       Team_Heading: "Who's behind Utopia?",
