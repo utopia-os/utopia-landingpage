@@ -54,6 +54,18 @@ export const TeamSection: React.FC = () => {
       },
       imageUrl: "/team/luca.png",
     },
+    {
+      name: "Ulf",
+      role: {
+        en: "Developer",
+        de: "Entwickler",
+      },
+      quote: {
+        en: "As a long-distance hiker, utopia-map is the ideal tool to document my travel.",
+        de: "Als Fernwanderer ist Utopia-Map das ideale Werkzeug, um meine Reise zu dokumentieren.",
+      },
+      imageUrl: "/team/ulf.jpg",
+    },
   ];
   
 
