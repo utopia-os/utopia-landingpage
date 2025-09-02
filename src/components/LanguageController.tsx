@@ -19,6 +19,8 @@ export const LanguageController = () => {
             <ul className="menu dropdown-content bg-base-100 rounded-box z-1 p-2 shadow-sm">
                 <li className="btn btn-ghost" onClick={() => changeLanguage('en')}>English</li>
                 <li className="btn btn-ghost" onClick={() => changeLanguage('de')}>Deutsch</li>
+                <li className="btn btn-ghost" onClick={() => changeLanguage('hsb')}>Hornjoserbšćina</li>
+                <li className="btn btn-ghost" onClick={() => changeLanguage('dsb')}>Dolnoserbšćina</li>
             </ul>
         </details>
     );

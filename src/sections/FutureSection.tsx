@@ -11,10 +11,14 @@ export const FutureSection: React.FC = () => {
       title: {
         en: "Calendar Module",
         de: "Kalender Modul",
+        hsb: "Kalendrowy modul",
+        dsb: "Kalenderowy modul",
       },
       description: {
         en: "Create, display, join, observe, share, and even link events to your personal calendar directly on the map.",
         de: "Termine direkt auf der Karte erstellen, sichtbar machen, teilnehmen, beobachten, teilen und sogar mit deinem persönlichen Kalender verknüpfen.",
+        hsb: "Podawki direktnje na karće wutworić, pokazać, přizamknyć, wobhladać, dźělić a zwjazać ze swojim wosobinskim kalendrom.",
+        dsb: "Tšojenja direktnje na kórśe twóriś, pokazaś, pśizamknuś, wobglědaś, źěliś a zwězaś ze swójim wósobinskim kalendarom.",
       },
     },
     {
@@ -22,10 +26,14 @@ export const FutureSection: React.FC = () => {
       title: {
         en: "Telegram Bot",
         de: "Telegram Bot",
+        hsb: "Telegram bot",
+        dsb: "Telegram bot",
       },
       description: {
         en: "It connects the platform with Telegram groups and ensures that relevant events land directly where they're needed.",
         de: "Es verbindet die Plattform mit Telegram-Gruppen und sorgt dafür, dass relevante Ereignisse direkt dort landen, wo sie gebraucht werden.",
+        hsb: "Zwězuj platformu z Telegram skupinami a zawěsća, zo relewantne podawki direktnje tam dóstaja, hdźež su trěbne.",
+        dsb: "Zwězujo platformu z telegramowymi kupkami a zawěsća, až relewantne tšojenja pśimo tam spadnu, źož se trjebaju.",
       },
     },
     {
@@ -33,10 +41,14 @@ export const FutureSection: React.FC = () => {
       title: {
         en: "Markdown Editor",
         de: "Markdown Editor",
+        hsb: "Markdown editor",
+        dsb: "Markdown editor",
       },
       description: {
         en: "Easily design profile pages – with headings, lists, quotes, images, and links. Everything works intuitively through a user-friendly interface with live preview.",
         de: "Profilseiten ganz einfach gestalten – mit Überschriften, Listen, Zitaten, Bildern und Links. Alles funktioniert intuitiv über eine benutzerfreundliche Oberfläche mit Live-Vorschau.",
+        hsb: "Profilowe strony lochko wutworić – z nadpismami, lisćinami, citatami, wobrazami a wotkazami. Wšě funguje intuitiwnje přez wužiwarsku powierzinu z live-přehladom.",
+        dsb: "Profilowe boki lažko twóriś – z nadpisami, lisćinami, citatami, wobrazami a wótkazami. Wšykno funkcioněrujo intuitiwnje pśez wužywaŕsku pówjerch z žiwy mjeńim.",
       },
     },
     {
@@ -44,10 +56,14 @@ export const FutureSection: React.FC = () => {
       title: {
         en: "Maps for Event Organizing",
         de: "Karten für Event-Organisation",
+        hsb: "Mapy za organizowanje podawkow",
+        dsb: "Kórty za organizěrowanje tšojenjow",
       },
       description: {
         en: "Discover and create events that matter to you and your community. From workshops to festivals, it's all on the map.",
         de: "Entdecke und erstelle Events, die dir und deiner Community wichtig sind. Von Workshops bis Festivals, alles ist auf der Karte.",
+        hsb: "Wotkrywaj a twór podawki, kotrež su tobě a twojej community wažne. Wot workshopow hač do festivalow – wšitko je na karće.",
+        dsb: "Wótkryj a twór tšojenja, kótarež su tobu a twójej community wažne. Wót workshopow až do festiwalow – wšykno jo na kórśe.",
       },
     },
   ];

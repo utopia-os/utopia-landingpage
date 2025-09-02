@@ -11,10 +11,14 @@ export const TeamSection: React.FC = () => {
       role: {
         en: "Map Designer",
         de: "Map Designer",
+        hsb: "Mapowy designer",
+        dsb: "Kartowy designer",
       },
       quote: {
         en: "We are a group of creators and change-makers who believe in the power of collective action and local initiative.",
         de: "Wir sind eine Gruppe von Machern und Veränderern, die an die Kraft kollektiven Handelns und lokaler Eigeninitative glauben.",
+        hsb: "Smy skupina tworičelow a změnowarjow, kotřiž wěraja na móc kollektiwnych nadawkow a lokalnych iniciatywow.",
+        dsb: "Smy kupa twórjarjow a změnowarjow, kótarež wěri na móc kolektiwnego działanja a lokalnych iniciatywow.",
       },
       imageUrl: "/team/anton.png",
     },
@@ -23,10 +27,14 @@ export const TeamSection: React.FC = () => {
       role: {
         en: "Visionary",
         de: "Visionär",
+        hsb: "Wizionar",
+        dsb: "Wizionar",
       },
       quote: {
         en: "Our goal is to create collaborative maps to connect people, projects and resources in real life.",
         de: "Unser Ziel ist es, kollaborative Karten zu erstellen, um Menschen, Projekte und Ressourcen im echten Leben zu verbinden.",
+        hsb: "Naš cil je, kolaboratiwne karty tworić, zo bychmy ludźi, projekty a resursy w prawej realnosći zwjazali.",
+        dsb: "Naš cel jo twóriś kolaboratiwne kórty, aby luźe, projekty a resurse w napšawdnem žycenju zwězał.",
       },
       imageUrl: "/team/timo.png",
     },
@@ -35,10 +43,14 @@ export const TeamSection: React.FC = () => {
       role: {
         en: "Community Support",
         de: "Community Support",
+        hsb: "Community-podpěra",
+        dsb: "Community-pódpěra",
       },
       quote: {
         en: "Our mission is to connect the digital and real worlds to spark new ideas, make change and co-creation possible.",
         de: "Unsere Mission ist es, die digitale und die reale Welt zu verbinden, um neue Ideen zu entfachen, Veränderungen zu bewirken und Co-Kreation zu ermöglichen.",
+        hsb: "Naša misija je, digitalny a realny swět zwjazać, zo bychmy nowe ideje zapalili, změny spowodowali a sobutworjenje zmóžnili.",
+        dsb: "Naša misija jo zwězaś digitalny a napšawdny swět, aby nowe ideje zapalili, změny pśewjadli a sobuwuwiśe zmóžnili.",
       },
       imageUrl: "/team/shaira.png",
     },
@@ -47,10 +59,14 @@ export const TeamSection: React.FC = () => {
       role: {
         en: "Growth Marketing",
         de: "Growth Marketing",
+        hsb: "Marketing rósta",
+        dsb: "Marketing rosta",
       },
       quote: {
         en: "More than anything, we want to help communities unlock their potential and bring big dreams to life—together.",
         de: "Mehr als alles andere wollen wir Gemeinschaften dabei helfen, ihr Potenzial freizusetzen und große Träume gemeinsam zu verwirklichen.",
+        hsb: "Wjace hač něšto druheho chcemy communityjam pomhać, swój potencial wotswobodzić a wulke sny hromadźe do žiwa přewjesć.",
+        dsb: "Wěcej ako co druge pśajaś, chcemy communityjam pomagaś, jich potencjał wótwóliś a wjelike sny gromaźe k žywjenju pśewjasć.",
       },
       imageUrl: "/team/luca.png",
     },
@@ -59,10 +75,14 @@ export const TeamSection: React.FC = () => {
       role: {
         en: "Developer",
         de: "Entwickler",
+        hsb: "Wuwiwary",
+        dsb: "Wuwijowar",
       },
       quote: {
         en: "As a long-distance hiker, utopia-map is the ideal tool to document my travel.",
         de: "Als Fernwanderer ist Utopia-Map das ideale Werkzeug, um meine Reise zu dokumentieren.",
+        hsb: "Jako dalokowandrowar je utopia-map idealny nastroj, zo bych swoju puć dokumentował.",
+        dsb: "Ako dalokowurowar jo Utopia-Map idealny rěd, aby swóju drog dokumentěrował.",
       },
       imageUrl: "/team/ulf.jpg",
     },

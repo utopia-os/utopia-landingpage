@@ -2,16 +2,12 @@
 import * as React from "react";
 import { useTranslation } from "react-i18next";
 
+type Lang = "de" | "en" | "hsb" | "dsb";
+
 interface TeamMemberCardProps {
   name: string;
-  role: {
-    de: string,
-    en: string
-  };
-  quote: {
-    de: string,
-    en: string
-  };
+  role: Record<Lang, string>;
+  quote: Record<Lang, string>;
   imageUrl: string;
 }
 
@@ -21,8 +17,8 @@ export const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
   quote,
   imageUrl,
 }) => {
-    const {i18n } = useTranslation(); 
-    const lang = i18n.language as 'de' | 'en'; 
+    const {i18n } = useTranslation();
+    const lang = i18n.language as Lang;
   return (
     <section className="card bg-white rounded-2xl shadow-lg ml-8 max-w-lg">
       <div className="card-body">
