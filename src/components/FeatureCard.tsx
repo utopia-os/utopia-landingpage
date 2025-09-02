@@ -2,16 +2,12 @@
 import * as React from "react";
 import { useTranslation } from "react-i18next";
 
+type Lang = "de" | "en" | "hsb" | "dsb";
+
 interface FeatureCardProps {
   icon: string;
-  title: {
-    en: string;
-    de: string
-  };
-  description: {
-    en: string;
-    de: string
-  };
+  title: Record<Lang, string>;
+  description: Record<Lang, string>;
 }
 
 export const FeatureCard: React.FC<FeatureCardProps> = ({
@@ -20,7 +16,7 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
   description,
 }) => {
   const { i18n } = useTranslation();
-  const lang = i18n.language as 'de' | 'en';
+  const lang = i18n.language as Lang;
   return (
     <div className="card bg-base-100 rounded-2xl shadow-2xl">
       <div className="card-body p-8 items-center sm:justify-start md:items-center lg:justify-start flex sm:flex-row md:flex-col lg:flex-row gap-8 justify-center ">

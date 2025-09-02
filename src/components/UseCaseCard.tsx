@@ -2,14 +2,13 @@
 import * as React from "react";
 import { useTranslation } from "react-i18next";
 
+type Lang = "de" | "en" | "hsb" | "dsb";
+
 interface UseCaseCardProps {
   icon: string;
   title: string;
   subtitle: string;
-  description: {
-    de: string;
-    en: string;
-  };
+  description: Record<Lang, string>;
   url: string;
 }
 
@@ -20,8 +19,8 @@ export const UseCaseCard: React.FC<UseCaseCardProps> = ({
   description,
   url,
 }) => {
-  const { t, i18n } = useTranslation(); 
-  const lang = i18n.language as 'de' | 'en'; 
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language as Lang;
 
   return (
     <div className="card rounded-2xl bg-base-100 w-96 shadow-2xl">
