@@ -28,7 +28,7 @@ export const UtopiaModule = () => {
                     Das Modul wurde auf Basis realer Bedürfnisse aus dem Netzwerk von Utopia Community Mapping entwickelt –
                     formuliert als User Stories:
 
-                    📍 „Als Nutzer:in möchte ich direkt auf der Karte einen Termin anlegen, damit andere ihn sehen und teilnehmen können.“
+                    📍 „Als Nutzer:in möchte ich direkt auf der Karte einen Termin anlegen, damit andere ihn sehen und teilnehmen können.“
 
                     👁️ „Als Nutzer:in möchte ich Termine beobachten können, damit ich informiert bleibe, auch wenn ich (noch) nicht teilnehme.“
 
